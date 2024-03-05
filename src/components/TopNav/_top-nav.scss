@@ -1,0 +1,72 @@
+
+@import '../../style/sass/variables';
+.header {
+    max-width: 100%;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.top-nav-row {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    color: white;
+    margin-left: 2%;
+    padding: 0.8rem;
+    width: 23%;
+}
+
+.inp-container {
+    display: flex;
+    width: 50%;
+    height: $element-height;
+}
+
+.inp-container button {
+    width: 10%;
+    border: none;
+    background-color: #dadada;
+}
+
+.inp-container input {
+    border-radius: unset;
+}
+
+.dropdown {
+    width: 16%;
+
+    .select-btn {
+        height: 2.5rem;
+    }
+}
+
+.login-container {
+    display: flex;
+    width: 15%;
+    color: white;
+    text-align: right;
+    margin: 0.7rem 0.2rem 0 0;
+}
+
+.user-icon {
+    margin-right: 0.4em;
+    padding: 0.2em;
+    font-size: $icon-font;
+}
+
+.cart-wishlist {
+    width: 7%;
+}
+
+.cart-wishlist ul {
+    margin-bottom: 0em;
+}
+
+.cart-wishlist .list-icon {
+    color: white;
+    font-size: $icon-font;
+    list-style: none;
+    display: inline-block;
+    margin-right: 0.5em;
+}
